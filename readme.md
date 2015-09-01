@@ -1,8 +1,10 @@
-![Travis](https://img.shields.io/travis/justpark/yeynay.svg)
-
 ![YeyNay](extra/logo.png)
 
 YeyNay is an evolution of a multi-variate testing framework for use at [JustPark](https://www.justpark.com).
+
+---
+![Travis](https://img.shields.io/travis/justpark/yeynay.svg)
+---
 
 At its current stage of evolution, YeyNay is a coin-toss (dumb) A/B testing framework. It uses a provided dynamic value (odd/even) to decide whether to run A or B variations. It can use a number of interchangable datastores to record a count of conversions.
 
