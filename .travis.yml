@@ -6,3 +6,7 @@ php:
   - hhvm
   - 7
   - nightly
+cache: composer
+script:
+  - composer install
+  - phpunit
