@@ -1,6 +1,6 @@
-![YeyNay](extra/logo.png)
-
 ![Travis](https://img.shields.io/travis/justpark/yeynay.svg)
+
+![YeyNay](extra/logo.png)
 
 YeyNay is an evolution of a multi-variate testing framework for use at [JustPark](https://www.justpark.com).
 
@@ -20,7 +20,7 @@ $yeyNay = new \JustPark\YeyNay\Runner($store);
 It's best to pick something like an auto-incremental ID. Let's use a user ID.
 
 ```php
-if ($yeyNay->variation('key\_for\_test', $user->id)) {
+if ($yeyNay->variation('key_for_test', $user->id)) {
     // Code for variation A.
 } else {
     // Code for variation B.
@@ -30,13 +30,13 @@ if ($yeyNay->variation('key\_for\_test', $user->id)) {
 **Next, track conversions on successful actions.**
 
 ```php
-$yeyNay->convert('key\_for\_test', $user->id);
+$yeyNay->convert('key_for_test', $user->id);
 ```
 
 **Finally, view the test results.**
 
 ```php
-$results = $yeyNay->results('key\_for\_test');
+$results = $yeyNay->results('key_for_test');
 $results->getA(); // Count of conversions for variation A. (odd)
 $results->getB(); // Count of conversions for variation B. (even)
 ```
