@@ -39,16 +39,31 @@ class Results
         $this->b = $b;
     }
 
+    /**
+     * Retrieve the name of the test.
+     *
+     * @return string
+     */
     public function getName()
     {
         return $this->name;
     }
 
+    /**
+     * Retrieve the count of variate A conversions.
+     *
+     * @return int
+     */
     public function getA()
     {
         return $this->a;
     }
 
+    /**
+     * Retrieve the count of variate B conversions.
+     *
+     * @return int
+     */
     public function getB()
     {
         return $this->b;

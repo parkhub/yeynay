@@ -64,7 +64,7 @@ class ArrayStore implements StoreInterface
      * Retrieve the results for a test.
      *
      * @param  string $name
-     * @return <TBA>
+     * @return \JustPark\YeyNay\Results
      */
     public function results($name)
     {
