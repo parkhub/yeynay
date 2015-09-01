@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "JustPark\\YeyNay\\": "src"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.6"
+    }
+}
